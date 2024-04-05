@@ -2,13 +2,17 @@
   "name": "8bit-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://aysenurcaglar.github.io/8bit-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "terser": "^5.30.3",
     "vite": "^5.2.0"
   },
