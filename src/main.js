@@ -2,16 +2,16 @@ import { dialogueData, scaleFactor } from "./constants";
 import { k } from "./kaboomCtx";
 import { displayDialogue, setCamScale } from "./utils";
 
-k.loadSprite("spritesheet", "./spritesheet.png", {
-    sliceX: 39,
-    sliceY: 31,
+k.loadSprite("spritesheet", "./Abigail-sprite-sheet.png", {
+    sliceX: 4,
+    sliceY: 14,
     anims: {
-        "idle-down": 964,
-        "walk-down": { from: 964, to: 967, loop: true, speed: 8 },
-        "idle-side": 1003,
-        "walk-side": { from: 1003, to: 1006, loop: true, speed: 8 },
-        "idle-up": 1042,
-        "walk-up": { from: 1042, to: 1045, loop: true, speed: 8 },
+        "idle-down": 0,
+        "walk-down": { from: 0, to: 3, loop: true, speed: 8 },
+        "idle-side": 4,
+        "walk-side": { from: 4, to: 7, loop: true, speed: 8 },
+        "idle-up": 8,
+        "walk-up": { from: 8, to: 11, loop: true, speed: 8 },
     }
 });
 
