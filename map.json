@@ -380,6 +380,19 @@
          "tilecount":1209,
          "tileheight":16,
          "tilewidth":16
+        }, 
+        {
+         "columns":4,
+         "firstgid":1210,
+         "image":"Abigail-sprite-sheet.png",
+         "imageheight":448,
+         "imagewidth":64,
+         "margin":0,
+         "name":"Abigail-sprite-sheet",
+         "spacing":0,
+         "tilecount":56,
+         "tileheight":32,
+         "tilewidth":16
         }],
  "tilewidth":16,
  "type":"map",
